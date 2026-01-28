@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CV | Karina Hernández Trujillo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <button class="print-btn" onclick="descargarPDF()">
+      <i class="fas fa-file-pdf"></i> Descargar PDF
+    </button>
+
+
+
+<div class="cv">
+
+    <!-- COLUMNA IZQUIERDA -->
+    <aside class="left">
+
+        <!-- Foto -->
+        <div class="photo">
+            <img src="kari.jpeg" alt="Foto de Karina Hernández">
+        </div>
+
+        <!-- Nombre -->
+        <h1>
+            KARINA<br>
+            <span>HERNÁNDEZ TRUJILLO</span>
+        </h1>
+
+        <p class="role">Administración • Almacén • Calidad</p>
+
+        <!-- Contacto -->
+        <section class="contact">
+            <h2><i class="fas fa-address-book"></i> Contacto</h2>
+
+            <p>
+                <a href="https://wa.me/524442874452" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    +52 444 287 4452
+                </a>
+            </p>
+
+            <p>
+                <a href="https://www.linkedin.com/in/karina-hernandez-trujillo" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    karina-hernandez-trujillo
+                </a>
+            </p>
+
+            <p>
+                <a href="https://www.instagram.com/karina.ht" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                    @karina.ht
+                </a>
+            </p>
+        </section>
+
+        <!-- Perfil -->
+        <section>
+            <h2><i class="fas fa-user"></i> Perfil</h2>
+            <p>
+                Profesional organizada y responsable con experiencia en áreas
+                administrativas, control de inventarios y calidad.
+                Destaco por mi capacidad de adaptación, trabajo en equipo
+                y enfoque a resultados.
+            </p>
+        </section>
+
+        <!-- Habilidades técnicas -->
+        <section>
+            <h2><i class="fas fa-tools"></i> Habilidades Técnicas</h2>
+            <ul>
+                <li>Gestión documental</li>
+                <li>Control de inventarios</li>
+                <li>Excel intermedio</li>
+                <li>Oracle</li>
+                <li>Facturación</li>
+                <li>Captura de datos</li>
+            </ul>
+        </section>
+
+        <!-- Habilidades blandas -->
+        <section>
+            <h2><i class="fas fa-heart"></i> Habilidades Blandas</h2>
+            <ul>
+                <li>Trabajo en equipo</li>
+                <li>Comunicación efectiva</li>
+                <li>Organización</li>
+                <li>Manejo de presión</li>
+                <li>Toma de decisiones</li>
+            </ul>
+        </section>
+
+    </aside>
+
+    <!-- COLUMNA DERECHA -->
+    <main class="right">
+
+        <!-- Experiencia -->
+        <section class="experience">
+            <h2><i class="fas fa-briefcase"></i> Experiencia</h2>
+
+            <article class="job">
+                <h3>• Capturista – Shenellecke</h3>
+                <span>2024 – 2025</span>
+                <p>
+                    Captura de salidas de material, control de inventarios,
+                    archivo documental y surtido a línea en almacenes Daikin.
+                </p>
+            </article>
+
+            <article class="job">
+                <h3>• Inspectora de Calidad – PROGAL</h3>
+                <span>2021 – 2023</span>
+                <p>
+                    Inspección final del producto, liberación al cliente
+                    y elaboración de reportes de control.
+                </p>
+            </article>
+
+            <article class="job">
+                <h3>• Encargada y Cajera – BE FREE</h3>
+                <span>2018 – 2021</span>
+                <p>
+                    Manejo de caja, facturación, inventarios,
+                    proveedores y atención al cliente.
+                </p>
+            </article>
+        </section>
+
+        <!-- Sección inferior -->
+        <section class="bottom-grid">
+
+            <!-- Educación -->
+            <div>
+                <h2><i class="fas fa-graduation-cap"></i> Educación</h2>
+                <ul class="education">
+                    <li>
+                        <strong>Lic. Admin. Capital Humano</strong><br>
+                        Instituto ALFFA (En curso)
+                    </li>
+                    <li>
+                        <strong>Lic. Capital Humano</strong><br>
+                        UVEG – 3 semestres-Trunca
+                    </li>
+                    <li>
+                        <strong>Bachillerato en Turismo COBACH 01</strong><br>
+                        Concluida
+
+                    </li>
+                    <li>
+                        <strong>Secundaria Tenica #79 Informatica</strong><br>
+                        Concluida
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Referencias -->
+            <div class="references">
+                <h2><i class="fas fa-user-check"></i> Referencias</h2>
+
+                <p>
+                    <strong>• José Enrique</strong><br>
+                    <span>Ing. en Sistemas · 444 641 0096</span>
+                </p>
+
+                <p>
+                    <strong>• Ángel Bernal</strong><br>
+                    <span>Ing. Industrial · 554 966 8432</span>
+                </p>
+
+                <p>
+                    <strong>• Erick Alberto</strong><br>
+                    <span>Supervisor Administrativo · 331 012 4837</span>
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+</body>
+</html>
