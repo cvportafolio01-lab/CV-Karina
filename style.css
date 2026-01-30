@@ -28,14 +28,15 @@ body {
 
 /* ===== CONTENEDOR ===== */
 .cv {
-    width: 210mm;
-    height: 297mm;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 38% 62%;
-    background: var(--white);
-    overflow: hidden;
+  width: 210mm;
+  min-height: 297mm;   /* NO height fijo */
+  margin: auto;
+  display: grid;
+  grid-template-columns: 38% 62%;
+  background: var(--white);
+  overflow: hidden;
 }
+
 
 /* ===== LADO IZQUIERDO ===== */
 .left {
@@ -209,14 +210,6 @@ body {
     text-decoration: none !important;
 }
 
-/* ===== EVITAR CORTES ===== */
-.cv,
-.left,
-.right,
-section,
-article {
-    page-break-inside: avoid;
-}
 
 /* ===== BOTÓN PDF ===== */
 .print-btn {
