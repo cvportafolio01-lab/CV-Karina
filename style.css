@@ -134,6 +134,7 @@ body {
 .contact .fa-whatsapp { color: #25d366; }
 .contact .fa-linkedin { color: #0a66c2; }
 .contact .fa-instagram { color: #e1306c; }
+.contact .fa-envelope { color: #d44638; }
 
 /* ===== LADO DERECHO ===== */
 .right {
@@ -302,4 +303,8 @@ article {
         padding: 8px 12px;
         font-size: 13px;
     }
+}
+
+.contact a.email-link {
+    font-size: 0.8rem; /* prueba 0.65rem si aún no cabe */
 }
