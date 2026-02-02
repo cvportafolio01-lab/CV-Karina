@@ -139,7 +139,7 @@ body {
 
 /* ===== LADO DERECHO ===== */
 .right {
-    padding: 70px 30px 30px; /* 👈 en vez de margin-top */
+    padding: 40px 30px 30px; /* 👈 en vez de margin-top */
 }
 
 .right h2 {
@@ -280,4 +280,23 @@ body {
 
 .contact a.email-link {
     font-size: 0.8rem; /* prueba 0.65rem si aún no cabe */
+}
+ @media print {
+    .print-btn {
+        display: none;
+    }
+}
+@page {
+    size: A4;
+    margin: 0;
+}
+
+.cv {
+  width: 210mm;
+  height: 297mm;
+  overflow: hidden;
+}
+
+.photo img {
+    object-fit: cover;
 }
